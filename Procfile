@@ -1,1 +1,1 @@
-web:gunicorn invadrian-todo.wsgi:application
+web:gunicorn todo.wsgi:application
