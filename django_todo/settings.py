@@ -28,7 +28,7 @@ SECRET_KEY = 'luc24s%)0@43y)+!xm16*rqd1au%z(pf22oaom@ko4+l=lsftf'
 DEBUG = True
 
 ALLOWED_HOSTS = ['8080-db4e7e06-4059-43b8-95f7-bcfbf911b308.ws-eu01.gitpod.io',
-                 "invadrian-todo.herokuapp.com"]
+                 os.environ.get("HOSTNAME")]
 
 
 # Application definition
